@@ -1,0 +1,63 @@
+{
+  "data": [
+    {
+      "title": "Fundraisers for",
+      "links": [
+        {
+          "label": "Medical",
+          "link": "#"
+        },
+        {
+          "label": "Emergency",
+          "link": "#"
+        },
+        {
+          "label": "Environment",
+          "link": "#"
+        },
+        {
+          "label": "Nonprofit",
+          "link": "#"
+        },
+        {
+          "label": "Crisis Relief",
+          "link": "#"
+        },
+        {
+          "label": "Film & Videos",
+          "link": "#"
+        }
+      ]
+    },
+    {
+      "title": "Student loans for",
+      "links": [
+        {
+          "label": "Tuition",
+          "link": "#"
+        },
+        {
+          "label": "Books",
+          "link": "#"
+        },
+        {
+          "label": "Supplies",
+          "link": "#"
+        },
+        {
+          "label": "Research",
+          "link": "#"
+        },
+        {
+          "label": "Technology",
+          "link": "#"
+        },
+        {
+          "label": "Study Abroad",
+          "link": "#"
+        }
+      ]
+    }
+    
+  ]
+}

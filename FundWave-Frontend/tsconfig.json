@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    /* Target ECMAScript version */
+    "target": "ESNext",
+
+    /* Libraries */
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+
+    /* Module system */
+    "module": "ESNext",
+    "moduleResolution": "node", // Stick with node module resolution for compatibility with most packages
+    "resolveJsonModule": true,  // Enable importing JSON modules
+    "allowImportingTsExtensions": true,  // Allow importing TypeScript files with extensions
+
+    /* JSX */
+    "jsx": "react-jsx",  // Enables the new JSX runtime from React 17+
+    
+    /* TypeScript settings */
+    "esModuleInterop": true,  // Makes default imports work for CommonJS modules
+    "skipLibCheck": true,  // Skips type checking of declaration files for faster builds
+    "forceConsistentCasingInFileNames": true,  // Ensures consistent file naming
+    "isolatedModules": true,  // Ensures each file can be safely transpiled without relying on other files
+    "noEmit": true,  // Prevents TypeScript from emitting any output (used for type-checking only)
+
+    /* Linting and Type Safety */
+    "strict": true,  // Enables all strict type-checking options
+    "noImplicitAny": false,  // Allow `any` types (can be disabled for stricter type-checking)
+    "noUnusedLocals": true,  // Error when local variables are unused
+    "noUnusedParameters": true,  // Error when function parameters are unused
+    "noFallthroughCasesInSwitch": true,  // Prevents fallthrough cases in switch statements
+  },
+  "include": ["src"],  // Specifies that TypeScript should only include files in the src directory
+  "references": [
+    { "path": "./tsconfig.node.json" }  // Reference to other configurations (optional)
+  ]
+}
