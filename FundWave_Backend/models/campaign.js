@@ -17,12 +17,14 @@ const campaignSchema = new mongoose.Schema({
     condition: {type: String}
 });
 
+
 campaignSchema.pre('validate', function(next) {
     if (this.target === 'deadline' && !this.deadlineDate) {
         return next(new Error('deadlineDate is required when target is "deadline"'));
     }
     next();
 });
+
 
 const Campaign = mongoose.model('Campaign', campaignSchema);
 
