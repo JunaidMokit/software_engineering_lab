@@ -10,5 +10,7 @@ const FundpaymentSchema = new mongoose.Schema({
     tip: { type: Number, default: 0 },
     createdAt: { type: Date, default: Date.now },
 });
+
+
 const Fundpayment = mongoose.model('Fundpayment', FundpaymentSchema);
 module.exports = Fundpayment;
