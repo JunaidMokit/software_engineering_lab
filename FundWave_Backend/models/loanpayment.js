@@ -10,6 +10,7 @@ const LoanpaymentSchema = new mongoose.Schema({
     createdAt: { type: Date, default: Date.now },
 });
 
+
 const Loanpayment = mongoose.model('Loanpayment', LoanpaymentSchema);
 
 module.exports = Loanpayment;
