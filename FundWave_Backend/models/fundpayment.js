@@ -11,6 +11,5 @@ const FundpaymentSchema = new mongoose.Schema({
     createdAt: { type: Date, default: Date.now },
 });
 
-
 const Fundpayment = mongoose.model('Fundpayment', FundpaymentSchema);
 module.exports = Fundpayment;
