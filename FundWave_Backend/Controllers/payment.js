@@ -32,7 +32,7 @@ const givepay = async (req, res) => {
     cus_add1: "Dhaka",
     cus_city: "Dhaka",
     cus_country: "Bangladesh",
-    cus_phone: "01711111111",
+    cus_phone: "01871957285",
     ship_name: username,
     ship_add1: "Dhaka",
     ship_city: "Dhaka",
@@ -202,6 +202,7 @@ const ipn = async (req, res) => {
   const { id } = req.params;
   const { status } = req.body;
 
+
   try {
     // First, try to update Fundpayment
     let payment = await Fundpayment.findOneAndUpdate(
@@ -224,6 +225,7 @@ const ipn = async (req, res) => {
     res.status(500).send("Internal Server Error");
   }
 };
+
 
 module.exports = {
   givepay,
