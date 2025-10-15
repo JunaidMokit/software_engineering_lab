@@ -295,4 +295,5 @@ const CampaignDetailsPage = (): JSX.Element => {
   );
 };
 
+
 export default CampaignDetailsPage;
